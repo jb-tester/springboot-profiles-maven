@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active[0]: remote
+    active[1]: local
+  cache:
+    cache-names[0]: 'bbb'
+    cache-names[1]: 'aaa'
+server:
+  compression:
+    mime-types[0]: application/json
+    mime-types[1]: text/xml
+logging:
+  level:
+    com: debug
